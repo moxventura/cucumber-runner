@@ -6,5 +6,6 @@ RUN \
   apk add build-base --no-cache && \
   gem install selenium-webdriver -v 3.11.0 && \
   gem install cucumber -v 3.1.0 && \
+  gem install gmail -v 0.6.0 && \
   apk del build-base --purge && \
   rm -rf /var/cache/apk/*
