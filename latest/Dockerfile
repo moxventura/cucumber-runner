@@ -7,4 +7,4 @@ RUN \
   gem install selenium-webdriver cucumber gmail htmlentities && \
   apk del build-base --purge && \
   rm -rf /var/cache/apk/*
-ENTRYPOINT ["/bin/bash"]
+ENTRYPOINT ["/bin/bash -c"]

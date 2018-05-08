@@ -10,4 +10,4 @@ RUN \
 	gem install htmlentities -v 4.3.4 && \
   apk del build-base --purge && \
   rm -rf /var/cache/apk/*
-ENTRYPOINT ["/bin/bash"]
+ENTRYPOINT ["/bin/bash -c"]
