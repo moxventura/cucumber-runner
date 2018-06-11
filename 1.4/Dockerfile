@@ -1,6 +1,6 @@
 FROM ruby:2.5.1-alpine3.7
 MAINTAINER Jesper Jeeninga <jesper.jeeninga@trimm.nl>
-COPY ./Gemfile* ~/
+COPY ./1.4/Gemfile* ~/
 RUN \
   apk update && \
   apk upgrade && \
