@@ -6,6 +6,8 @@ RUN \
   apk upgrade && \
   apk add build-base bash --no-cache && \
   gem install bundler && \
+  ls -la && \
+  pwd && \
   bundle install && \
   rm -rf ~/Gemfile* && \
   apk del build-base --purge && \
