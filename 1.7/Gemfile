@@ -6,8 +6,8 @@ source "https://rubygems.org"
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 # gem "rails"
-gem "ffi", "~> 1.9.25"
+gem "ffi", "~> 1.10.0"
 gem "cucumber-expressions", "~> 6.0.1"
 gem "cucumber", "~> 3.1.2"
-gem "selenium-webdriver", "~> 3.14.0"
+gem "selenium-webdriver", "~> 3.141.0"
 gem "gmail", "~> 0.7.1"
