@@ -35,7 +35,7 @@ GEM
     multi_json (1.13.1)
     multi_test (0.1.2)
     oauth (0.5.4)
-    rubyzip (1.2.1)
+    rubyzip (1.2.2)
     selenium-webdriver (3.13.0)
       childprocess (~> 0.5)
       rubyzip (~> 1.2)
@@ -48,7 +48,8 @@ DEPENDENCIES
   cucumber-expressions (~> 6.0.1)
   ffi (~> 1.9.25)
   gmail
+  rubyzip (~> 1.2.2)
   selenium-webdriver (~> 3.13.0)
 
 BUNDLED WITH
-   1.16.2
+   1.17.1
