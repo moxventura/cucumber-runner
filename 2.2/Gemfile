@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-#source "https://rubygems.org"
-source "http://mirror.ops.rhcloud.com/mirror/ruby/"
+source "https://rubygems.org"
+#source "http://mirror.ops.rhcloud.com/mirror/ruby/"
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 

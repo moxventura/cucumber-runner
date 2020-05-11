@@ -1,5 +1,5 @@
 GEM
-  remote: http://mirror.ops.rhcloud.com/mirror/ruby/
+  remote: https://rubygems.org/
   specs:
     backports (3.17.1)
     builder (3.2.4)
