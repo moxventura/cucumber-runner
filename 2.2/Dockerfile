@@ -1,4 +1,4 @@
-FROM ruby:2.7.1-alpine3.11
+FROM ruby:2.6.6-alpine3.11
 MAINTAINER Jesper Jeeninga <jesper.jeeninga@trimm.nl>
 COPY ./Gemfile /Gemfile
 COPY ./Gemfile.lock /Gemfile.lock
